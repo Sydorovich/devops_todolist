@@ -4,7 +4,7 @@
 https://hub.docker.com/r/sydor101/todoapp
 
 ## Building local image
-docker build -t todoapp
+docker build -t todoapp .
 ## Running a container
 docker run -d -p 8080:8080 --name todoapp todoapp
 ## If running from the Docker Hub
